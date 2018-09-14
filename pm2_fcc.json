@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "fcc",
+    "script": "server.js",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "cwd": "/var/www/html/_nodejs/fcc/urlshortener",
+    "env": {
+      "NODE_ENV":"production",
+      "MONGO_URL": "",
+      "ROOT_URL": "http://fcc.soritra.com",
+      "PORT": "3003",
+      "METEOR_SETTINGS": {}
+    }
+  }]
+}
