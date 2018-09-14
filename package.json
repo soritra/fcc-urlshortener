@@ -1,0 +1,33 @@
+{
+	"name": "fcc-api-challenge-shorturl",
+	"version": "1.0.0",
+	"description": "FCC API Challenge",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"dotenv": "^6.0.0",
+		"express": "^4.12.4",
+		"mongodb": "^2.2.5",
+		"mongoose": "^4.5.7"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/soritra/fcc-urlshortener"
+	},
+	"keywords": [
+		"node",
+		"express",
+		"request",
+		"url",
+		"shortener",
+		"freecodecamp"
+	],
+	"license": ""
+}
